@@ -1,6 +1,6 @@
 # Description
 
-This repo is a collection of my docker-compose files.
+This repo is a collection of my docker-compose files for both documentation and backup purposes. 
 
 # How is this organized
 
