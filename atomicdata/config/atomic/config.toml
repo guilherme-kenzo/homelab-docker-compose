@@ -1,0 +1,3 @@
+server = 'http://localhost:8012'
+agent = 'http://localhost:8012/agents/rtrDKwhHuR/gHtUGqaJTv9Fvpl2RR8v63G7sMbiSGWY='
+private_key = 'nGhEPIyTT/8xvLhrxPXdJLcBWd5p+CgReSv0pL1ow9A='

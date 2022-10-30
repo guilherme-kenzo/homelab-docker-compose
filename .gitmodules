@@ -1,0 +1,3 @@
+[submodule "atomicdata/atomic-data-server"]
+	path = atomicdata/atomic-data-server
+	url = git@github.com:atomicdata-dev/atomic-data-rust.git

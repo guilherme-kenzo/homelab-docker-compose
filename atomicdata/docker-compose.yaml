@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+
+  atomicserver:
+    build: atomic-data-server/.
+    ports:
+      - 8012:8012
+    env_file:
+      - .env
+    volumes:
+      - ./config/atomic:/config/atomic
+      - atomicdb:/db
+
+volumes:
+  atomicdb:
