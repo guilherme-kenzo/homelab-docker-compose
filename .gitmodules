@@ -1,0 +1,3 @@
+[submodule "mood-recorder"]
+	path = mood-recorder
+	url = git@github.com:guilherme-kenzo/mood-recorder.git
