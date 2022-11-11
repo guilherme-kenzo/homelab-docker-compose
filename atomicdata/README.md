@@ -12,4 +12,8 @@ Run this service through the `run_compose.sh` script (at least when first buildi
 
 ## To future me
 
-Still a work in progress. Could not get the webui to work. When 
+This is still a work in progress. I had some trouble finding the configuration/env options and files, but found that running `./atomic-server-bin setup-env` inside the the atomicserver container generates a helpful sample env file. However, I could not get the web interface to work - index just gave me an authentication error.
+
+## TO DO
+
+- [ ] Check if there are any related bugs in the projects github.
