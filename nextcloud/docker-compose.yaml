@@ -1,4 +1,4 @@
-version: '2'
+version: '3'
 
 
 services:
@@ -9,18 +9,22 @@ services:
     volumes:
       - db:/var/lib/mysql
     env_file: .env
-
+    networks:
+      - db
 
   app:
     image: nextcloud
     restart: always
     ports:
       - 8080:80
-    links:
-      - db
     volumes:
       - nextcloud:/var/www/html
+    networks:
+      - db
 
 volumes:
   nextcloud:
+  db:
+
+networks:
   db:
